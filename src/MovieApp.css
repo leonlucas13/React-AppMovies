@@ -1,0 +1,71 @@
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type='text']{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgb(250, 248, 247);
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: 1s all ease;
+}
+
+button:hover{
+    background-color: rgb(109, 108, 108);
+    border: 1px;
+    border-color: white;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card{
+    background-color: rgb(205, 224, 240);
+    padding: 20px ;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgb(22, 21, 21);
+}
+
+.movie-card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.movie-card h2{
+    color: rgb(83, 80, 80);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.movie-card p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
